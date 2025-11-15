@@ -16,7 +16,7 @@ touch .env
 DB_USER = "YOUR_USERNAME"
 DB_PASSWORD = "YOUR_PASSWORD"
 ```
-
+To run
 ```
 cd sakila-orm
 
@@ -34,6 +34,7 @@ To test run
 python3 test_commands.py
 
 ```
+
 
 
 
