@@ -9,11 +9,9 @@ source venv/bin/activate
 pip3 install Django mysqlclient dot-env
 ```
 
-Naviage to settings.py -> In DATABASES, replace USER and PASSWORD to your own
+Environment variables
 
-Instructions to run program:
 
-In sakila-orm dir, 
 ```
 cd sakila-orm
 
@@ -31,5 +29,6 @@ To test run
 python3 test_commands.py
 
 ```
+
 
 
