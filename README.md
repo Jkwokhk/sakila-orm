@@ -10,7 +10,12 @@ pip3 install Django mysqlclient dot-env
 ```
 
 Environment variables
-
+```
+cd ./sakila-orm
+touch .env
+DB_USER = "YOUR_USERNAME"
+DB_PASSWORD = "YOUR_PASSWORD"
+```
 
 ```
 cd sakila-orm
@@ -29,6 +34,7 @@ To test run
 python3 test_commands.py
 
 ```
+
 
 
 
