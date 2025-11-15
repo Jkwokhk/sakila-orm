@@ -1,4 +1,5 @@
 Setup:
+'''
 cd ./sakila-orm  
 
 python3 -m venv venv
@@ -6,7 +7,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 pip3 install Django mysqlclient dot-env
-
+'''
 
 Naviage to settings.py -> In DATABASES, replace USER and PASSWORD to your own
 
@@ -28,5 +29,6 @@ python3 manage.py validate
 To test run
 
 python3 test_commands.py
+
 
 
